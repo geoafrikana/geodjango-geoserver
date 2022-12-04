@@ -1,0 +1,41 @@
+
+#map{
+    width:calc(100%-10px);
+    height: calc(100vh - 86px);
+    margin: 5px;
+
+}
+body,html{
+    padding:0px;
+    margin:0;
+}
+
+.mylatlng{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    background-color:azure;
+    margin: 5px solid black;
+}
+
+.fullscreenview{
+    position:absolute;
+    right: 2px;
+    top: 200px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border:2px solid gray;
+}
+
+#home{
+    position:absolute;
+    right: 2px;
+    top: 240px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border:2px solid gray;
+}
